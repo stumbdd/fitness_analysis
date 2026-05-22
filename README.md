@@ -38,22 +38,25 @@
 
 ## Структура проекта
 fitness_analysis/
+│
 ├── data/
-│ └── fitness_data.csv - генерируется командой generate
+│ └── fitness_data.csv # генерируется командой generate
+│
 ├── src/
-│ ├── __init__.py
-│ ├── data_loader.py - генерация, загрузка, сохранение данных
-│ ├── analysis.py - класс FitnessAnalyzer с методами анализа
-│ └── utils.py - генераторы и декораторы
+│ ├── init.py
+│ ├── data_loader.py # генерация, загрузка, сохранение данных
+│ ├── analysis.py # класс FitnessAnalyzer с методами анализа
+│ └── utils.py # генераторы и декораторы
+│
 ├── tests/
-│ ├── __init__.py
-│ ├── test_data_loader.py - тесты загрузки и генерации
-│ ├── test_analysis.py - тесты аналитических функций
-│ └── test_utils.py - тесты генераторов и декораторов
-├── main.py - точка входа, CLI на argparse
-├── requirements.txt - зависимости
-└── README.md - этот файл
-
+│ ├── init.py
+│ ├── test_data_loader.py # тесты загрузки и генерации
+│ ├── test_analysis.py # тесты аналитических функций
+│ └── test_utils.py # тесты генераторов и декораторов
+│
+├── main.py # точка входа, CLI на argparse
+├── requirements.txt # зависимости
+└── README.md # этот файл
 
 ## Установка
 
